@@ -21,8 +21,6 @@ data = pd.DataFrame(data_json)
 #Le asignamos la fecha como índice
 data.set_index('d', inplace=True, drop=True)
 
-data
-
 """
 ENDPOINTS : Descripcion
 milestones : eventos relevantes (presidencia, ministros de economía, presidentes del BCRA, cepo al dólar)
