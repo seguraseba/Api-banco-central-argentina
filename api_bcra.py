@@ -23,7 +23,7 @@ data.set_index('d', inplace=True, drop=True)
 
 data
 
-"""```
+"""
 ENDPOINTS : Descripcion
 milestones : eventos relevantes (presidencia, ministros de economía, presidentes del BCRA, cepo al dólar)
 base : base monetaria
@@ -73,6 +73,4 @@ var_usd_oficial_interanual : variación USD (Oficial) interanual
 var_merval_interanual : variación merval interanual
 merval : MERVAL
 merval_usd : MERVAL dividido cotización del USD
-
-```
 """
